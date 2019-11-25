@@ -9,11 +9,15 @@ public class StateHandeler
     private List<State> states;
     private Dictionary<string,State> stateDict;
 
-    private State currentState;
+    public State currentState;
     private State previousState;
 
-    public StateHandeler(List<State> states)
+    public StateHandeler(List<State> states, State startingState)
     {
+        states = new List<State>();
+        previousState = null;
+        currentState = startingState;
+        this.states = states;
         Init();
     }
 
@@ -26,11 +30,9 @@ public class StateHandeler
             stateDict.Add(state.ID, state);
         }
 
-        previousState = null;
-        currentState = states[0];
     }
 
-    public void StateChange()
+    public State StateChange()
     {
         if(OnStateChange != null)
         {
@@ -38,7 +40,8 @@ public class StateHandeler
             currentState = currentState.nextState;
 
             OnStateChange(currentState);
-        } else { Debug.LogWarning("OnStateChange is null"); }
+            return currentState.nextState;
+        } else { Debug.LogWarning("OnStateChange is null"); return null; }
     }
 
 }

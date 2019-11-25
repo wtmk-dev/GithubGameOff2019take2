@@ -21,6 +21,7 @@ public class PlayerKit : MonoBehaviour , InputGamePad
     private TopDownPlayerMovement movement;
 
     public Sprite primaryFireSprite;
+    public bool isActive = false;
 
     //test code
     private bool alternateFire = false, cantFire = false, canShield = true;
@@ -43,6 +44,11 @@ public class PlayerKit : MonoBehaviour , InputGamePad
         }
 
         if(gamepad == null)
+        {
+            return;
+        }
+
+        if(!isActive)
         {
             return;
         }

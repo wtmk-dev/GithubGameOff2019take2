@@ -1,0 +1,1465 @@
+fileFormatVersion: 2
+guid: ad0a77d74e1d8d5478729b486a616508
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1927654684315182626
+    second: Large Controller Pack_0
+  - first:
+      213: 5566940440417932033
+    second: Large Controller Pack_1
+  - first:
+      213: -1675123362297971819
+    second: Large Controller Pack_2
+  - first:
+      213: 5312633633019362240
+    second: Large Controller Pack_3
+  - first:
+      213: -3841536760588191259
+    second: Large Controller Pack_4
+  - first:
+      213: -6147176064196072440
+    second: Large Controller Pack_5
+  - first:
+      213: -6324190587625420369
+    second: Large Controller Pack_6
+  - first:
+      213: 5045297355010769602
+    second: Large Controller Pack_7
+  - first:
+      213: -3621584591618085507
+    second: Large Controller Pack_8
+  - first:
+      213: 8067299396055383922
+    second: Large Controller Pack_9
+  - first:
+      213: -3857563882603440253
+    second: Large Controller Pack_10
+  - first:
+      213: 7284592370599172876
+    second: Large Controller Pack_11
+  - first:
+      213: -1830759015740907116
+    second: Large Controller Pack_12
+  - first:
+      213: 5731813853400406187
+    second: Large Controller Pack_13
+  - first:
+      213: 8064686160820232565
+    second: Large Controller Pack_14
+  - first:
+      213: 5316948530333357755
+    second: Large Controller Pack_15
+  - first:
+      213: -389364398778270345
+    second: Large Controller Pack_16
+  - first:
+      213: 7754755653963786466
+    second: Large Controller Pack_17
+  - first:
+      213: -3043246605220724231
+    second: Large Controller Pack_18
+  - first:
+      213: 7051531713181022300
+    second: Large Controller Pack_19
+  - first:
+      213: -4734573305379645173
+    second: Large Controller Pack_20
+  - first:
+      213: 3773829719755192381
+    second: Large Controller Pack_21
+  - first:
+      213: -2807443780752166007
+    second: Large Controller Pack_22
+  - first:
+      213: -6497580471091823439
+    second: Large Controller Pack_23
+  - first:
+      213: -3462088329414183848
+    second: Large Controller Pack_24
+  - first:
+      213: -3292000672596417450
+    second: Large Controller Pack_25
+  - first:
+      213: 649021321802572983
+    second: Large Controller Pack_26
+  - first:
+      213: -8311300782888540726
+    second: Large Controller Pack_27
+  - first:
+      213: -8313153731900150854
+    second: Large Controller Pack_28
+  - first:
+      213: 4861531112447122044
+    second: Large Controller Pack_29
+  - first:
+      213: -560985141807777255
+    second: Large Controller Pack_30
+  - first:
+      213: -2234680714434964384
+    second: Large Controller Pack_31
+  - first:
+      213: 1425507715432131617
+    second: Large Controller Pack_32
+  - first:
+      213: -3331690596103891808
+    second: Large Controller Pack_33
+  - first:
+      213: -2210060434955064631
+    second: Large Controller Pack_34
+  - first:
+      213: 5573925719720506741
+    second: Large Controller Pack_35
+  - first:
+      213: 5643213095171783431
+    second: Large Controller Pack_36
+  - first:
+      213: 8965759036805563145
+    second: Large Controller Pack_37
+  - first:
+      213: 6395611988518106298
+    second: Large Controller Pack_38
+  - first:
+      213: 7291046700647015510
+    second: Large Controller Pack_39
+  - first:
+      213: 2232837212681822167
+    second: Large Controller Pack_40
+  - first:
+      213: -7856036511592689248
+    second: Large Controller Pack_41
+  - first:
+      213: 6869394337658916114
+    second: Large Controller Pack_42
+  - first:
+      213: 8846101176610958691
+    second: Large Controller Pack_43
+  - first:
+      213: -3472512898958793138
+    second: Large Controller Pack_44
+  - first:
+      213: -2184473666383667621
+    second: Large Controller Pack_45
+  - first:
+      213: -604420966906862838
+    second: Large Controller Pack_46
+  - first:
+      213: 2579771348760079308
+    second: Large Controller Pack_47
+  - first:
+      213: 6070527944548005458
+    second: Large Controller Pack_48
+  - first:
+      213: -819575579542972234
+    second: Large Controller Pack_49
+  - first:
+      213: -3572337852378115011
+    second: Large Controller Pack_50
+  - first:
+      213: 1559801388973528812
+    second: Large Controller Pack_51
+  - first:
+      213: -2552215362257336041
+    second: Large Controller Pack_52
+  - first:
+      213: 6530535103872051329
+    second: Large Controller Pack_53
+  - first:
+      213: 5448064160391377853
+    second: Large Controller Pack_54
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Large Controller Pack_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 222
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0eb119de0a35f43aecec4602bf56bd
+      internalID: 1927654684315182626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 245
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c382cd71278e7e7448d034a13ada202e
+      internalID: 5566940440417932033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 220
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e358fe96d2bdb54ab40f1db3b43c0fc
+      internalID: -1675123362297971819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4047b0e3855bf408284ef351812881
+      internalID: 5312633633019362240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 228
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a494d96120720944b83c419662450a2
+      internalID: -3841536760588191259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 228
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d18708bd596b2f449feb084b2a34d05
+      internalID: -6147176064196072440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e365f9cf298a02d408f4dbeebf6fee57
+      internalID: -6324190587625420369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 217
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6170b322eb8618f4e8534e4a81509116
+      internalID: 5045297355010769602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_8
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 217
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a8b2449d8e71f40a8cd535e668fb60
+      internalID: -3621584591618085507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_9
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 217
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19b3ffad2eb5ae4dba796ecf7a84f2d
+      internalID: 8067299396055383922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_10
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 190
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fda4b82760183418b3b06e8a0eb130
+      internalID: -3857563882603440253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_11
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 217
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3f8548a9687db4385ca25eca823485
+      internalID: 7284592370599172876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_12
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 217
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de1a5835339d0f4698f91ca8cd32c18
+      internalID: -1830759015740907116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 217
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0988c2871208e4aadf9fc7b61cfee9
+      internalID: 5731813853400406187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 190
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1a494a04bb3b54d87e3b7a279b27e9
+      internalID: 8064686160820232565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_15
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 217
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19de345c3f4221d409a66e28b92250fc
+      internalID: 5316948530333357755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 190
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110d03e527d44b84bb2aa1cfa5f698a6
+      internalID: -389364398778270345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 190
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd678219dbc781a458368bc4edf78144
+      internalID: 7754755653963786466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_18
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 190
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ae0271860f3434dbf5b0cbc97d4d49
+      internalID: -3043246605220724231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_19
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 190
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc093ef33e6271a4bb036c5d3be8127e
+      internalID: 7051531713181022300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 161
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d01fba6c28380d4a8b73ef11d31789d
+      internalID: -4734573305379645173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 161
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595e4c861bd731442b215019cba81422
+      internalID: 3773829719755192381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_22
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 161
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c87e91f258d7745b22634ba9a21ed0
+      internalID: -2807443780752166007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 161
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d173f52a7b9d2ac4190528811ef9dcc4
+      internalID: -6497580471091823439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_24
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 146
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d263589d2fc027e41b7c41d6dd64dffc
+      internalID: -3462088329414183848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_25
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 146
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b8e5c41ef611d47b0a816a7634b4cd
+      internalID: -3292000672596417450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 132
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8883b8da9ab4754a99ed9b79767b491
+      internalID: 649021321802572983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_27
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 132
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103f5a92b6bb74a4abd5d0063ae1b0bb
+      internalID: -8311300782888540726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_28
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 132
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d3475b3d955514fbe7c371a93fed70
+      internalID: -8313153731900150854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_29
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 132
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5be97e60cdb28499e9a346753e9ddc
+      internalID: 4861531112447122044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_30
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 126
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3191e9758eec8d4bbf2bc5641171145
+      internalID: -560985141807777255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_31
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 126
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32327077e8bfab64f89b6420cceba226
+      internalID: -2234680714434964384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 105
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acef7c5656e00e84a852562599277956
+      internalID: 1425507715432131617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_33
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 105
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81455c32fbcadd488e45fac390375a9
+      internalID: -3331690596103891808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_34
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 105
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a62d6a9eb302c49a0dc5f046e3f7c5
+      internalID: -2210060434955064631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_35
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 105
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d739feb344db65c46bbcfe3edd2a8618
+      internalID: 5573925719720506741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_36
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 55
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949045b49f3dbce42965bf6961afb71f
+      internalID: 5643213095171783431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 73
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af322caf0e6de44cb070bb72746a29b
+      internalID: 8965759036805563145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_38
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 73
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ec5c27602f73f44b43975d91f4a80f
+      internalID: 6395611988518106298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 73
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01915d03c058ddb4a833ed8e26679ac2
+      internalID: 7291046700647015510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_40
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 73
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f44c2585019f1d4a9bd76cd8c7eb6a7
+      internalID: 2232837212681822167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_41
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 44
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f63898da1c5214bb2d93333f5469e2
+      internalID: -7856036511592689248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 44
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d1f117d5f648c4f91f4f3a51ed9efb
+      internalID: 6869394337658916114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 44
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc4b62212085324f8339c123bddd777
+      internalID: 8846101176610958691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_44
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 44
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93a7a66b19a8434ab8f4620a4d83a92
+      internalID: -3472512898958793138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_45
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 44
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a695017a13f60f4b9d904966b15a7bc
+      internalID: -2184473666383667621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5091a6337052b9b4f88ac4979e549adb
+      internalID: -604420966906862838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_47
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 27
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf6362067ac69b4ca7882d73a6f8087
+      internalID: 2579771348760079308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_48
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 27
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b22dce98ccd654c9b9d17450259128
+      internalID: 6070527944548005458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 27
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3ed2a21f8678a4c9325aef459c6d48
+      internalID: -819575579542972234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_50
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 27
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64b2c0d65065c745a72fac7f108e8ea
+      internalID: -3572337852378115011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_51
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053377f9b9f69474791f38a72a5ef8a6
+      internalID: 1559801388973528812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_52
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 10
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed947e87ff36ee45a3ec7b428660d5e
+      internalID: -2552215362257336041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_53
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 5
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f237a43dcaa0c5e45b321511f640e98d
+      internalID: 6530535103872051329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Controller Pack_54
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 11
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396820332cf75d249b1a549926eafb01
+      internalID: 5448064160391377853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e9dc8ea8eb8e34f40a63ff5dce3e4f82
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
