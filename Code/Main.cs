@@ -107,6 +107,9 @@ public class Main : MonoBehaviour
             case "Start":
             BuildGame();
             break;
+            case "Main":
+            Debug.Log("Battle TIME!");
+            break;
             default:
             return;
         }

@@ -1,27 +1,28 @@
-using UnityEngine;
-
-public class Timer : ScriptableObject
+public class Timer 
 {
-    public Event e;
-    public float lengthInSeconds;
+    private float currentTimePassed;
+    private float triggerTime;   
 
-    private float lastTimeStep;   
 
-    public void ResetTimer()
+    public float RecordTime(float deltaTime)
     {
-        lastTimeStep = 0.0f;
+        return currentTimePassed += deltaTime;
     }
 
-    public void StartTimer()
+    public void SetTimer(float waitTime)
     {
-        if(Time.time - lastTimeStep >= lengthInSeconds)
-        {
-            lastTimeStep = Time.time;
+        this.triggerTime = waitTime;
+        currentTimePassed = 0;
+    }
 
-            if(e.OnRaiseEvent != null)
-            {
-                e.Raise();
-            }
+    public bool IsDone()
+    {
+        var hasTriggerd = false;
+        if( currentTimePassed > triggerTime )
+        {
+            currentTimePassed = 0;
+            return hasTriggerd = true;
         }
+        return hasTriggerd;
     }
 }
