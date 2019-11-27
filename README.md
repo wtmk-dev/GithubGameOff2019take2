@@ -10,3 +10,6 @@ player input movement, fire, shield
 
 -v0.02
 Detect and connect players, lobby and controls info overlay
+
+-v0.03
+Update art. Players can now advance to main game state. Shader added for glow effect.

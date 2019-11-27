@@ -26,6 +26,9 @@ public class PlayerKit : MonoBehaviour , InputGamePad
     //test code
     private bool alternateFire = false, cantFire = false, canShield = true;
 
+    public static int TOTAL_PLAYERS = 0;
+    public int id = 0;
+
     void Awake()
     {
         movement = GetComponent<TopDownPlayerMovement>();
@@ -33,7 +36,9 @@ public class PlayerKit : MonoBehaviour , InputGamePad
         ammo = 6;
         maxAmmo = 6;
         shotsOut = 0;
-
+        TOTAL_PLAYERS++;
+        id = TOTAL_PLAYERS;
+        Debug.Log("Dood im player: " + id);
     }
 
     void Update()
