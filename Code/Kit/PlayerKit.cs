@@ -4,40 +4,76 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(TopDownPlayerMovement))]
 public class PlayerKit : MonoBehaviour , InputGamePad
 {
-
     [SerializeField]
     private Transform firePointL, firePointR;
+
     [SerializeField]
-    private GameObject bullet,shield;
+    private GameObject bullet, goShield;
+
     [SerializeField]
     private int primaryFirePoolSize, ammo, maxAmmo;
-    private int shotsOut;
-    [SerializeField]
-    private float primaryFireForce;
 
     private GameObjectPooler primaryFirePool;
 
+    private int shotsOut;
+    
+    [SerializeField]
+    private float primaryFireForce, shieldDeletionTime = 18f, 
+                  shieldRechargeTime = 5f, shieldFullyDeletedTimer = 10f;
+    
+    private float currentShieldRechargeTime;
+
+    private float SHIELD_MAX = 100f;
+
+   
     private UnityEngine.InputSystem.Gamepad gamepad;
     private TopDownPlayerMovement movement;
 
+    private Timer shieldRechargeTimer;
+
+    public PlayerModel model;
     public Sprite primaryFireSprite;
     public bool isActive = false;
-
-    //test code
-    private bool alternateFire = false, cantFire = false, canShield = true;
 
     public static int TOTAL_PLAYERS = 0;
     public int id = 0;
 
+    //kit
+    private BasicShield shield;
+    private BasicRig rig;
+    private BasicShot shot;
+
+    //test code
+    private bool alternateFire = false, cantFire = false, canShield = true;
+
     void Awake()
     {
+        LogIn();
+
+        shieldRechargeTimer = new Timer();
+        shield = GetComponentInChildren<BasicShield>();
+        rig = GetComponentInChildren<BasicRig>();
+
         movement = GetComponent<TopDownPlayerMovement>();
 
+//TO:DO Refactor
         ammo = 6;
         maxAmmo = 6;
         shotsOut = 0;
+//
+        model = new PlayerModel(0,100f,2f,10f,false,false,true);
+
+        shield.SetModel(model);
+        
+        rig.SetModel(model);
+        rig.SetId(id);
+    }
+
+    private void LogIn()
+    {
         TOTAL_PLAYERS++;
         id = TOTAL_PLAYERS;
+        
         Debug.Log("Dood im player: " + id);
     }
 
@@ -46,6 +82,11 @@ public class PlayerKit : MonoBehaviour , InputGamePad
         if(shotsOut == primaryFirePoolSize)
         {
             cantFire = true;
+        }
+
+        if(model == null)
+        {
+            return;
         }
 
         if(gamepad == null)
@@ -74,6 +115,12 @@ public class PlayerKit : MonoBehaviour , InputGamePad
         var rb = gamepad.rightShoulder.ReadValue();
 
         HandleShield(lb,rb);
+
+        if(!model.IsAlive)
+        {
+            gameObject.SetActive(false);
+        }
+
     }
 
     private void HandleShield(float lb,float rb)
@@ -86,14 +133,47 @@ public class PlayerKit : MonoBehaviour , InputGamePad
         bool lon = lb > 0 ? true : false;
         bool ron = rb > 0 ? true : false;
 
-        if(!lon || !ron)
+        if(model.ShieldLevel > SHIELD_MAX)
         {
-            shield.SetActive(false);
+            model.ShieldLevel = SHIELD_MAX;
         }
 
-        if(lon && ron)
+        if(!lon || !ron)
         {
-            shield.SetActive(true);
+            goShield.SetActive(false);
+            
+            if(!shieldRechargeTimer.IsLocked())
+            {
+                shieldRechargeTimer.SetLock(true);
+                shieldRechargeTimer.SetTimer(shieldRechargeTime);
+
+            } else if (shieldRechargeTimer.IsLocked())
+            {
+                shieldRechargeTimer.RecordTime(Time.fixedDeltaTime);
+            }
+
+            if(shieldRechargeTimer.IsDone())
+            {
+                Debug.Log("shield recharging");
+
+                if(model.ShieldLevel < SHIELD_MAX)
+                {
+                    Debug.Log("shield recharging");
+                    model.ShieldLevel += Time.fixedDeltaTime * shieldDeletionTime;
+                }
+            }
+        }
+
+        if(lon && ron && model.ShieldLevel > 0)
+        {
+            shieldRechargeTimer.SetLock(false);
+            model.ShieldLevel -= Time.fixedDeltaTime * shieldDeletionTime;
+            goShield.SetActive(true);
+        }
+
+        if(model.ShieldLevel <= 0)
+        {
+            goShield.SetActive(false);
         }
     }
 
@@ -139,6 +219,16 @@ public class PlayerKit : MonoBehaviour , InputGamePad
         LoadPrimaryFire();
     }
 
+    public bool IsActiveTeam()
+    {
+        return model.ActiveTeam;
+    }
+
+    public Transform GetTransform()
+    {
+        return gameObject.transform;
+    }
+
     private void LoadPrimaryFire()
     {
         primaryFirePool.Init();
@@ -159,6 +249,7 @@ public class PlayerKit : MonoBehaviour , InputGamePad
 
             GameObject clone = Instantiate(bullet,spawnPoint.position,spawnPoint.rotation);
             BasicShot pf = clone.GetComponent<BasicShot>();
+            pf.SetId(id);
             SpriteRenderer pfsr = clone.GetComponent<SpriteRenderer>();
             pfsr.sprite = primaryFireSprite;
             pf.pooler = primaryFirePool;
@@ -168,6 +259,14 @@ public class PlayerKit : MonoBehaviour , InputGamePad
 
     
 
+
+
+
+//model handeling
+    public void SetActiveTeam(bool isActive)
+    {
+        model.ActiveTeam = isActive;
+    }
 }
 
 

@@ -11,6 +11,7 @@ public class BasicShot : MonoBehaviour
    private float timeAlive;
 
    public GameObjectPooler pooler;
+   public int id;
 
    void OnEnable()
    {
@@ -35,6 +36,11 @@ public class BasicShot : MonoBehaviour
    public void Kill()
    {
         pooler.SetPoolable(this.gameObject);
+   }
+
+   public void SetId(int id)
+   {
+       this.id = id;
    }
 
    private void HandleEvent(Event e)

@@ -1,7 +1,8 @@
 public class Timer 
 {
     private float currentTimePassed;
-    private float triggerTime;   
+    private float triggerTime;
+    private bool isLocked;   
 
 
     public float RecordTime(float deltaTime)
@@ -11,8 +12,18 @@ public class Timer
 
     public void SetTimer(float waitTime)
     {
-        this.triggerTime = waitTime;
+        triggerTime = waitTime;
         currentTimePassed = 0;
+    }
+
+    public void SetLock(bool isLocked)
+    {
+        this.isLocked = isLocked;
+    }
+
+    public bool IsLocked()
+    {
+        return isLocked;
     }
 
     public bool IsDone()
@@ -20,7 +31,6 @@ public class Timer
         var hasTriggerd = false;
         if( currentTimePassed > triggerTime )
         {
-            currentTimePassed = 0;
             return hasTriggerd = true;
         }
         return hasTriggerd;

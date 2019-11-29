@@ -13,6 +13,7 @@ public class Main : MonoBehaviour
     private State nextState;
 
     private GameRules gr;
+    private Spawner sp;
 
     [SerializeField]
     private GameObject player, gameRulesPrefab;
@@ -50,6 +51,10 @@ public class Main : MonoBehaviour
 
         gr = gameRulesPrefab.GetComponent<GameRules>();
         gr.Init(stateHandeler);
+        
+        BuildGame();
+
+        nextState = stateHandeler.StateChange();
     }
 
     void Update()
@@ -86,12 +91,18 @@ public class Main : MonoBehaviour
 
     private void RegisterEvents()
     {
-        stateHandeler.OnStateChange += HandleState;
+        if(stateHandeler != null)
+        {
+            stateHandeler.OnStateChange += HandleState;
+        }
     }
 
     private void DeregisterEvent()
     {
-        stateHandeler.OnStateChange -= HandleState;
+        if(stateHandeler != null)
+        {
+            stateHandeler.OnStateChange -= HandleState;
+        }
     }
 
     private void HandleState(State state)
@@ -104,11 +115,14 @@ public class Main : MonoBehaviour
 
         switch(state.ID)
         {
+            case "Init":
+            Debug.Log("State Change: Init");
+            break;
             case "Start":
-            BuildGame();
+            Debug.Log("State Change: Start");
             break;
             case "Main":
-            Debug.Log("Battle TIME!");
+            Debug.Log("State Change: Main");
             break;
             default:
             return;

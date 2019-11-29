@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b627e84619be7a4182566450e32a9ac, type: 3}
-  m_Name: Loby
+  m_Name: SetUp
   m_EditorClassIdentifier: 
-  ID: Lobby
-  nextState: {fileID: 11400000, guid: 1188296a296ff5c4f948651208a46a2b, type: 2}
+  ID: SetUp
+  nextState: {fileID: 11400000, guid: 9748f8d9f30f0304dbed47280d48613e, type: 2}

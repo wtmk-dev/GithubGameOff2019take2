@@ -26,6 +26,7 @@ public class TopDownPlayerMovement : MonoBehaviour
         //Left stick
         if(gamepad == null)
         {
+            Debug.Log("no pad connected");
             return;
         }
 
