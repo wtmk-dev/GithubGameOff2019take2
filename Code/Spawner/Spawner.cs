@@ -70,7 +70,6 @@ public class Spawner : MonoBehaviour
        this.stateHandeler = stateHandeler;
        this.playerKits = playerKits;
 
-       LoadPool();
        RegisterEvents();
     }
 
@@ -104,17 +103,21 @@ public class Spawner : MonoBehaviour
                 go.transform.position = spawnPoints[0].transform.position;
                 break;
                 case 1:
-                go.transform.position = spawnPoints[0].transform.position;
+                go.transform.position = spawnPoints[1].transform.position;
                 break;
                 case 2:
-                go.transform.position = spawnPoints[0].transform.position;
+                go.transform.position = spawnPoints[2].transform.position;
                 break;
                 case 4:
-                go.transform.position = spawnPoints[0].transform.position;
+                go.transform.position = spawnPoints[3].transform.position;
                 break;
             }
 
-            // if(point <)
+            point++;
+            if(point > 3)
+            {
+                point = 0;
+            }
             
             
             spawns.Add(go);
@@ -151,6 +154,7 @@ public class Spawner : MonoBehaviour
             Debug.Log("State Change: Init");
             break;
             case "Start":
+            LoadPool();
             Debug.Log("State Change: Start");
             break;
             case "Main":

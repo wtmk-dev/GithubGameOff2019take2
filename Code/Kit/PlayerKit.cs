@@ -61,7 +61,7 @@ public class PlayerKit : MonoBehaviour , InputGamePad
         maxAmmo = 6;
         shotsOut = 0;
 //
-        model = new PlayerModel(0,100f,2f,10f,false,false,true);
+        model = new PlayerModel(0, 100f, 100f, 2f, 10f, false, false, true);
 
         shield.SetModel(model);
         

@@ -35,12 +35,12 @@ public class BasicRig : MonoBehaviour
             return;
         }
 
-        if(model.CanTakeDamage && model.Strikes < 3)
+        if(model.CanTakeDamage && model.LifeLevel > 0f)
         {
-            model.Strikes++;
+            model.LifeLevel -= 25f;
             model.CanTakeDamage = false;
 
-            if(model.Strikes == 3)
+            if( model.LifeLevel <= 0)
             {
                 model.IsAlive = false;
             }

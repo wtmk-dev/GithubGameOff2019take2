@@ -26,7 +26,7 @@ public class GameRules : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI readyText, titleText, p1AttackText, p2AttackText, launchText, lobbyTimerText, matchTimerText;
     [SerializeField]
-    private Image lShieldMeter, rShieldMeter, lTurnIcon, rTurnIcon;
+    private Image lShieldMeter, rShieldMeter, lTurnIcon, rTurnIcon, lLifeBar, rLifeBar;
     [SerializeField]
     private List<Image> lStrikes, rStrikes;
     private Dictionary<UnityEngine.InputSystem.Gamepad,GameObject> players;
@@ -233,6 +233,9 @@ public class GameRules : MonoBehaviour
             lShieldMeter.fillAmount = player1.model.ShieldLevel / 100f;
             rShieldMeter.fillAmount = player2.model.ShieldLevel / 100f;
 
+            lLifeBar.fillAmount = player1.model.LifeLevel / 100f;
+            rLifeBar.fillAmount = player2.model.LifeLevel / 100f;
+
             for(int lStrike = 0; lStrike < player2.model.Strikes; lStrike++)
             {
                 lStrikes[lStrike].gameObject.SetActive(true);
@@ -305,6 +308,9 @@ public class GameRules : MonoBehaviour
             goMainHud.gameObject.SetActive(false);
             goLobbyHud.gameObject.SetActive(false);
 
+            lLifeBar.gameObject.SetActive(false);
+            rLifeBar.gameObject.SetActive(false);
+
             foreach(Image strike in lStrikes)
             {
                 strike.gameObject.SetActive(false);
@@ -371,6 +377,9 @@ public class GameRules : MonoBehaviour
 
             currentRoundTimer = roundTimerInSeconds;
             roundTimer.SetTimer(roundTimerInSeconds);
+
+            lLifeBar.gameObject.SetActive(true);
+            rLifeBar.gameObject.SetActive(true);
             break;
             default:
             return;
